@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  padding:50px;
+}
+.sec1{
+  background-color: black;
+  color: white;
+  
+}
+.sec1__name,.sec1__role,.sec1__btn{
+  padding: 5px;
+}
+.sec1__role{
+  font-size: 17px;
+}
+.sec1__btn{
+  display: inline-block;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.sec2,.sec3,.sec4,.sec5{
+  margin-top: 10px;
+}
+.sec2__abt{
+  padding: 10px;
+ 
+}
+.sec2__p{
+  font-size: small;
+  margin-left: 8px;
+
+}
+.sec3{
+  background-color: orangered;
+  color: black;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.sec4{
+  background-color: blueviolet;
+  color: black;
+  padding: 20px;
+  height: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.sec4 li{
+  list-style: none;
+  margin-top: 5px;
+}
+.sec3__h{
+  margin-top: 5px;
+}
+.sec5{
+ 
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+
+  
+}
+.contact{
+ margin-top: 30px;
+ 
+}
+.contact__name,.contact__email,.contact__message,.con__btn{
+  margin-top: 20px;
+}
+.contact__name{
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+ 
+}
+.contact__email{
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+ 
+}
+.contact__message{
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+ 
+}
+.con__btn{
+  padding: 10px;
+  border: none;
+  background-color: #FF4500;
+  color: white;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+
